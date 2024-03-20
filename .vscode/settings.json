@@ -1,0 +1,167 @@
+{
+	// --editor settings--
+	"editor.wordWrap": "on",
+	"editor.formatOnSave": true,
+	"editor.mouseWheelZoom": true,
+	"editor.linkedEditing": true,
+	"editor.fontLigatures": true,
+	"editor.formatOnPaste": true,
+	"editor.fontFamily": "'FiraCode Nerd Font Mono',  Consolas, 'Courier New', monospace",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit",
+		"source.fixAll": "explicit"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+
+	// --terminal settings--
+	"terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono',  Consolas, 'Courier New', monospace",
+
+	"[*.svg]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[python]": {
+		"editor.formatOnType": true,
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+
+	"workbench.iconTheme": "material-icon-theme",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "typescript"
+	},
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+	"reactSnippets.settings.prettierEnabled": true,
+	"python.analysis.inlayHints.functionReturnTypes": true,
+	"redhat.telemetry.enabled": true,
+	"git.autofetch": true,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.useTabs": true,
+	"typescript.tsserver.watchOptions": {},
+
+	"ruff.showNotifications": "onError",
+	"window.zoomLevel": 2.5,
+	"black-formatter.showNotifications": "onError",
+	"python.analysis.autoFormatStrings": true,
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.completeFunctionParens": true,
+	"yaml.customTags": [
+		"!And",
+		"!And sequence",
+		"!If",
+		"!If sequence",
+		"!Not",
+		"!Not sequence",
+		"!Equals",
+		"!Equals sequence",
+		"!Or",
+		"!Or sequence",
+		"!FindInMap",
+		"!FindInMap sequence",
+		"!Base64",
+		"!Join",
+		"!Join sequence",
+		"!Cidr",
+		"!Ref",
+		"!Sub",
+		"!Sub sequence",
+		"!GetAtt",
+		"!GetAZs",
+		"!ImportValue",
+		"!ImportValue sequence",
+		"!Select",
+		"!Select sequence",
+		"!Split",
+		"!Split sequence"
+	],
+
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"python.analysis.inlayHints.variableTypes": true,
+
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
+	"scss.format.spaceAroundSelectorSeparator": true,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"svelte.enable-ts-plugin": true,
+	"emmet.includeLanguages": {
+		"astro": "javascriptreact",
+		"svelte": "html",
+		"postcss": "css"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"files.exclude": {
+		"**/__pycache__": true
+	},
+
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": true,
+		"scminput": "true",
+		"typescript": true
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"extensions.autoUpdate": false,
+	"css.format.spaceAroundSelectorSeparator": true,
+	"css.lint.boxModel": "warning",
+	"css.lint.duplicateProperties": "warning",
+	"javascript.format.insertSpaceAfterConstructor": true,
+	"ruff.importStrategy": "useBundled",
+	"python.analysis.inlayHints.pytestParameters": true,
+	"python.languageServer": "Pylance",
+	"python.analysis.typeCheckingMode": "basic",
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"update.enableWindowsBackgroundUpdates": false,
+	"[dockerfile]": {
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+	"workbench.colorTheme": "One Dark Pro Mix",
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"material-icon-theme.activeIconPack": "react",
+	"files.associations": {
+		"*.json": "jsonc"
+	},
+	"grunt.autoDetect": "on",
+	"gulp.autoDetect": "on",
+	"svelte.plugin.svelte.defaultScriptLanguage": "ts",
+	"svelte.plugin.svelte.format.config.svelteStrictMode": true,
+	"javascript.inlayHints.enumMemberValues.enabled": true,
+	"js/ts.implicitProjectConfig.target": "ESNext",
+	"docker.dockerPath": "podman",
+
+	"python.terminal.activateEnvInCurrentTerminal": true,
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	}
+}
